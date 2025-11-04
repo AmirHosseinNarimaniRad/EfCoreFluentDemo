@@ -104,5 +104,5 @@ To inspect the database using SQL Server Management Studio (SSMS):
 - Example query:
 
 ```sql
-SELECT * FROM hive.Users;
+SELECT * FROM dbo.Users;
 ```
