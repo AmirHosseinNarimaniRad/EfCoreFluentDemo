@@ -1,5 +1,86 @@
+########################
+# Build / Publish
+########################
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.exe
+*.dll
+*.pdb
+
+########################
+# .NET stuff
+########################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+########################
+# Rider / IntelliJ / ReSharper
+########################
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+########################
+# Visual Studio (اگه گاهی با VS هم باز کنی)
+########################
+.vs/
+*_i.c
+*_p.c
+*_h.h
+*.dbmdl
+*.jfm
+
+########################
+# VSCode
+########################
+.vscode/
+
+########################
+# NuGet
+########################
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+########################
+# Entity Framework
+########################
+# اگر اسکریپت‌های موقتی ساختی
+*.sql
+
+########################
+# System / OS
+########################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+########################
+# Logs / Temp / Cache
+########################
+*.log
+*.tlog
+*.svclog
+*.tmp
+*.temp
+
+########################
+# Other
+########################
+*.swp
+*.swo
+*.bak
+*.old
